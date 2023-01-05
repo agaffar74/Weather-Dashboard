@@ -1,72 +1,89 @@
-.search-history {
-  display: flex;
-  flex-direction: column;
+/* Description: Primary Stylesheet for About The Weather : A Weather Dashboard */
+
+
+/* Navbar */
+.jumbotron-fluid {
+  padding:30px;
+  background-color: rgb(1, 43, 63);
+  color: #fff;
+  border-bottom: rgb(199, 63, 10) solid 2px;
 }
 
-#clear-history-button {
-  background-color: #c23c07;
+.container-fluid {
+  width: 1400px;
+}
+
+.pb-3 {
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Search column */
+.form-control {
+  border: rgb(185, 184, 184) solid 1px;
+  padding-top: 1px;
+}
+
+.btn-outline-primary {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
   opacity: 0.6;
   transition: 0.3s;
   cursor: pointer;
 }
 
-#clear-history-button:hover {
+
+.btn:hover {
   opacity: 1;
+  background-color: rgb(199, 63, 10);
+}
+
+#searchHistory li {
+  margin-top: 5px;
+  text-align: center;
+  color: #ffff;
+  background-color:rgb(60, 109, 139);
+  height: auto;
+  cursor: pointer;
+}
+
+#searchHistory li:hover {
+  opacity: 1;
+  background-color: rgb(6, 75, 117);
+}
+
+/* Current weather column */
+
+#weatherContent {
+  display: none;
+}
+
+ul li {
+  color: blue;
+}
+
+#cityDetail,
+#uvIndexColor,
+li {
+  color: black;
+}
+
+#searchResults {
+  padding-top: 1px;
+ }
+
+
+.card {
+  background-color: white;
+ 
 }
 
 
-.title {
-  font-size: 30px;
-  font-weight: bold;
-  color: #02243a;
-}
-.day {
-  background: #02243a;
-  color: white;
-  list-style: none;
-  padding: 10px 20px;
+/* 5-day weather forecast columns */
+#fiveDay .card {
+  background-color: rgb(6, 75, 117);
   border-radius: 5%;
-}
-
-.five-day-forecast {
-  display: flex;
-  flex-direction: row;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   justify-content: space-between;
-}
-
-.five-day-forecast-header {
-  padding: 20px 10px;
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.present-day-weather ul {
-  list-style: none;
-  border: 1px solid;
-  padding: 10px;
-  margin: 10px;
-}
-
-header {
-  background: #1a2846;
-  color: white;
-  padding: 20px;
-  margin-bottom: 10px;
-}
-/* Tablets - landscape and portrait */
-@media screen and (max-width: 1180px) {
-  .five-day-forecast {
-    flex-direction: column;
-  }
-  }
-
-/* Small screens */
-@media screen and (max-width: 576px) {
-  .row.present-day-weather {
-    --bs-gutter-x: 0rem;
-    margin: 10px 0;
-  }
-  .present-day-weather ul {
-    margin: 10px 0;
-  }
+  
 }
