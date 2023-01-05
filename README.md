@@ -17,10 +17,10 @@ This application utilizes the AJAX to hook into OpenWeather API to retrieve data
 * Humidity
 * Wind speed
 * UV index Include a 5-Day Forecast below the current weather conditions. Each day for the 5-Day Forecast should display the following:
-* Date
-* Icon image (visual representation of weather conditions)
-* Temperature
-* Humidity
+    * Date
+    * Icon image (visual representation of weather conditions)
+    * Temperature
+    * Humidity
 
 It also Includes a search history so that users can access their past search terms. Clicking on the city name that populates under the search bar after their initial search, will perform a new search that returns current and future conditions for
 
