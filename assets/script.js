@@ -1,4 +1,4 @@
-$().ready(function () {
+function initPage() {
   
 
 // Declering Variables
@@ -162,4 +162,6 @@ clearBtn.addEventListener("click", function () {
    
 });
 
-});
+}
+
+initPage();
