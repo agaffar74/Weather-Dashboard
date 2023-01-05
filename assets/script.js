@@ -1,10 +1,9 @@
 $().ready(function () {
   
 
-// Variables
+// Declering Variables
 // API Key
 var apiKey = "0a498cb7f94283bc5337970f1a8fa119";
-// Search History
 var searchHistoryList = [];
 // Date using Moment.js
 var today = moment().format("MMM Do, YYYY");
