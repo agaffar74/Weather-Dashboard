@@ -1,6 +1,6 @@
 # Weather Dashboard
 ## Description
-This applicaiton is a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS with search functionality to find current weather conditions and the future weather outlook for multiple cities. 
+This is a weather dashboard application that will run in the browser and feature dynamically updated HTML and CSS with search functionality to find current weather conditions and the future weather outlook for multiple cities. 
 
 ## User Story
 AS A traveler
@@ -8,7 +8,7 @@ I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 
 ## User Experience
-This application utilizes the AJAX to hook into OpenWeather API to retrieve data in JSON format. Using dynamically updated HTML and CSS powered by jQuery we can show the user the follwoing information: Displayed the following under current weather conditions:
+This weather dashboard application utilizes the AJAX to hook into OpenWeather API to retrieve data in JSON format. Using dynamically updated HTML and CSS powered by jQuery we can show the user the follwoing information: Displayed the following under current weather conditions:
 
 * City
 * Date
