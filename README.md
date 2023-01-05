@@ -49,9 +49,9 @@ It also Includes a search history so that users can access their past search ter
 ## Deployment
 Application GitHub URL submitted. GitHub repository contains all files including application codes.
 
-* The site is live at [GitHub:] (https://github.com/agaffar74/Work-Day-Planner)
+* The site is live at [GitHub:] (https://github.com/agaffar74/Weather-Dashboard)
 
-* The Site is also live [URL:] (https://agaffar74.github.io/Work-Day-Planner/index.html)
+* The Site is also live [URL:] (https://agaffar74.github.io/Weather-Dashboard/index.html)
 
 ## Contact If you have any questions, please contact me at:
 * Github Profile: agaffar74
