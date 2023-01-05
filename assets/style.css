@@ -1,5 +1,3 @@
-/* Description: Primary Stylesheet for About The Weather : A Weather Dashboard */
-
 
 /* Navbar */
 .jumbotron-fluid {
@@ -31,7 +29,6 @@
   transition: 0.3s;
   cursor: pointer;
 }
-
 
 .btn:hover {
   opacity: 1;
