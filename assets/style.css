@@ -20,7 +20,7 @@
 /* Search column */
 .form-control {
   border: rgb(185, 184, 184) solid 1px;
-  padding-top: 1px;
+  padding-top: 5px;
 }
 
 .btn-outline-primary {
@@ -61,6 +61,7 @@
 ul li {
   color: rgb(8, 8, 8);
 }
+
 
 #cityDetail,
 #uvIndexColor,
